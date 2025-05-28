@@ -1,0 +1,9 @@
+
+1. AttributeError: module 'django.db.models' has no attribute 'model'. Did you mean: 'Model'?. 
+-->sln : check upper or lowercase
+        exm--class Student(models.Model): or (admin.ModelAdmin)
+
+2. ModuleNotFoundError: No module named 'crud' 
+-->sln : crudapp 
+3.ModuleNotFoundError: No module named 'django.url'
+-->sln'django.urls'
